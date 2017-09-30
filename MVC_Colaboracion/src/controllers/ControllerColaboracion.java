@@ -31,7 +31,7 @@ public class ControllerColaboracion {
         model_colaboracion.setN1(Integer.parseInt(view_colaboracion.jtf_n1.getText()));   
         model_colaboracion.setN2(Integer.parseInt(view_colaboracion.jtf_n2.getText()));
         model_colaboracion.setN3(Integer.parseInt(view_colaboracion.jtf_n3.getText()));   
-        model_colaboracion.mayor();
+        model_colaboracion.menor();
         model_colaboracion.jtf_m.setText(String.valueOf(view_colaboracion.getM()));
     
     }
