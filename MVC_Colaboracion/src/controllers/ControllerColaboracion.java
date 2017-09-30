@@ -16,7 +16,7 @@ public class ControllerColaboracion {
     public ControllerColaboracion(ViewColaboracion view_colaboracion, ModelColaboracion model_colaboracion){
         this.view_colaboracion = view_colaboracion;
         this.model_colaboracion = model_colaboracion;
-        view_colaboracion.jbtn_menor.addActionListener(e -> jbtn_mayor_click());
+        view_colaboracion.jbtn_menor.addActionListener(e -> jbtn_menor_click());
         initView();
     }
 
@@ -27,7 +27,7 @@ public class ControllerColaboracion {
         view_colaboracion.jtf_m.setText(String.valueOf(model_colaboracion.getM()));
         view_colaboracion.setVisible(true);
     }
-    public void jbtn_mayor_click(){
+    public void jbtn_menor_click(){
         model_colaboracion.setN1(Integer.parseInt(view_colaboracion.jtf_n1.getText()));   
         model_colaboracion.setN2(Integer.parseInt(view_colaboracion.jtf_n2.getText()));
         model_colaboracion.setN3(Integer.parseInt(view_colaboracion.jtf_n3.getText()));   
