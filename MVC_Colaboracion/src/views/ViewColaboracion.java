@@ -143,7 +143,7 @@ public class ViewColaboracion extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton jbtn_menor;
-    private javax.swing.JLabel jl_m;
+    public javax.swing.JLabel jl_m;
     private javax.swing.JLabel jl_n1;
     private javax.swing.JLabel jl_n2;
     private javax.swing.JLabel jl_n3;
@@ -152,4 +152,8 @@ public class ViewColaboracion extends javax.swing.JFrame {
     public javax.swing.JTextField jtf_n2;
     public javax.swing.JTextField jtf_n3;
     // End of variables declaration//GEN-END:variables
+
+    public Object getM() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
